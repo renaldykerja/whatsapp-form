@@ -42,7 +42,7 @@ $('#kirim').click(function () {
     var nama = $('#nama').val(),
     nomor = $('#nomor').val(),
     url_wa = 'https://api.whatsapp.com/send',
-    noAdmin = '82276080893', //isi nomor tujuan
+    noAdmin = '---', //isi nomor tujuan
     alamat = $('#alamat').val();
 
     for (i = 1; i <= x; i++) {
